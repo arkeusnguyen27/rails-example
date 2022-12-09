@@ -59,4 +59,11 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+  
+  # The generator will install an initializer which describes ALL of Devise's configuration options. 
+  # It is imperative that you take a look at it. When you are done, you are ready to add Devise to any of your models using the generator.
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # Allow connection to local server
+  config.hosts.clear
 end

@@ -1,0 +1,7 @@
+
+DEV_DB_NAME: example_development
+DB_USER: acteus
+
+TEST_DB_NAME: example_test
+
+PRODUCTION_DB_NAME: example_production

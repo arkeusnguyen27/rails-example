@@ -1,0 +1,9 @@
+.card-wrapper
+    .title = @shop[:name]
+    img.banner src = @shop[:banner_url]
+    .description = @shop[:description]
+
+.products-section
+    h1 product lists
+    - @products.each do |prod|
+        = render 'products/partials/product_card', { product: prod, shop_id: @shop[:id] }

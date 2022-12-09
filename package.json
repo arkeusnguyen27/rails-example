@@ -2,10 +2,21 @@
   "name": "judgeme",
   "private": true,
   "dependencies": {
-    "@rails/ujs": "^6.0.0",
-    "turbolinks": "^5.2.0",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/actiontext": "^6.0.6",
     "@rails/activestorage": "^6.0.0",
-    "@rails/actioncable": "^6.0.0"
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "^6.0.0-rc.6",
+    "bootstrap": "4.6.0",
+    "jquerry": "^0.0.1-security",
+    "node-sass": "^8.0.0",
+    "popper.js": "^1.16.1",
+    "sass": "^1.56.1",
+    "trix": "^1.2.0",
+    "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  }
 }
